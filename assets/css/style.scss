@@ -1,0 +1,88 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Main navigation tabs */
+.site-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 30px 0;
+  padding: 0 0 16px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.site-navigation a {
+  display: inline-block;
+  padding: 8px 12px;
+  color: #0b57a4;
+  background-color: #f6f8fa;
+  border: 1px solid #d0d7de;
+  border-radius: 7px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.site-navigation a:hover {
+  color: #ffffff;
+  background-color: #0969da;
+  border-color: #0969da;
+  text-decoration: none;
+}
+
+/* Professional circular profile photograph */
+header img {
+  width: 190px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.16);
+}
+
+/* Typography */
+h1 {
+  color: #172b4d;
+}
+
+h2 {
+  margin-top: 32px;
+  color: #243b53;
+}
+
+h3 {
+  color: #334e68;
+}
+
+p,
+li {
+  line-height: 1.7;
+}
+
+/* Links */
+a {
+  color: #0969da;
+}
+
+/* Mobile optimization */
+@media print, screen and (max-width: 720px) {
+  .site-navigation {
+    gap: 6px;
+  }
+
+  .site-navigation a {
+    padding: 7px 9px;
+    font-size: 12px;
+  }
+
+  header img {
+    width: 150px;
+    height: 150px;
+  }
+}

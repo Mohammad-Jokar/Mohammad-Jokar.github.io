@@ -71,7 +71,7 @@ li {
   line-height: 1.7;
 }
 
-/* Links */
+/* General links */
 a {
   color: #0969da;
 }
@@ -81,9 +81,17 @@ a:focus {
   color: #064f9e;
 }
 
-/* Hide the default Minimal theme footer */
-footer {
-  display: none;
+/* Remove the default Minimal theme footer from every page */
+footer,
+.wrapper footer,
+body footer {
+  display: none !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
 }
 
 /* Mobile optimization */
@@ -109,8 +117,10 @@ footer {
 /* Printing */
 @media print {
   .site-navigation,
-  footer {
-    display: none;
+  footer,
+  .wrapper footer,
+  body footer {
+    display: none !important;
   }
 
   header img {

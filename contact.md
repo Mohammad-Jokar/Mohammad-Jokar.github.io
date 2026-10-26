@@ -13,9 +13,7 @@ For research collaboration, academic projects, and professional inquiries, pleas
 
 ## Email
 
-YOUR-EMAIL@ucalgary.ca
-
-Replace `YOUR-EMAIL@ucalgary.ca` with your actual university email address.
+[mohammad.jokar@ucalgary.ca](mailto:mohammad.jokar@ucalgary.ca)
 
 ## Professional Profiles
 

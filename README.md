@@ -1,15 +1,3 @@
-# Mohammad Jokar, DVM
-
-## About Me
-
-I am a **Curriculum Mapping Coordinator and veterinary researcher at the University of Calgary**. My interdisciplinary work spans veterinary medicine, public health, epidemiology, evidence synthesis, and health data science.
-
-My research focuses on antimicrobial resistance, One Health, veterinary epidemiology, systematic reviews, infodemiology, artificial intelligence, and large language models. I apply evidence synthesis, meta-analysis, machine learning, digital epidemiology, and interactive data visualization to challenges affecting human and animal health.
-
-My broader goal is to transform complex health data into accessible evidence that can strengthen surveillance systems, support clinical decision-making, improve risk communication, advance health professions education, and inform public health policy.
-
----
-
 ## Research Interests
 
 - Antimicrobial resistance and antimicrobial stewardship
